@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0974b81d-2cdf-463c-a95d-1508b2901394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TreeSetTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,17 +68,17 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.14160156" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IDEA 3.1\demo\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompareObjectValue">
+  <component name="RunManager" selected="Application.TreeSetTests">
     <configuration name="CompareObjectValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.CompareObjectValue" />
       <module name="demo" />
@@ -120,19 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProExcelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ProExcelDemo" />
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.TreadDemo" />
       <module name="demo" />
@@ -146,15 +131,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeSetTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.TreeSetTests" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeSetTests" />
         <item itemvalue="Application.CompareObjectValue" />
         <item itemvalue="Application.Kpl" />
         <item itemvalue="Application.Il" />
         <item itemvalue="Application.TreadDemo" />
-        <item itemvalue="Application.ProExcelDemo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -193,48 +194,59 @@
       <workItem from="1660632356679" duration="2027000" />
       <workItem from="1660699897943" duration="443000" />
       <workItem from="1661245058570" duration="1646000" />
+      <workItem from="1663234720483" duration="1845000" />
     </task>
+    <task id="LOCAL-00001" summary="111">
+      <created>1662089679783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662089679783</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />
     <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="91" key="#Project_Structure" timestamp="1653558371162">
-      <screen x="0" y="0" width="1920" height="1030" />
-    </state>
-    <state x="451" y="91" key="#Project_Structure/0.0.1920.1030@0.0.1920.1030" timestamp="1653558371162" />
-    <state x="717" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1656471861421">
-      <screen x="0" y="0" width="1920" height="1030" />
-    </state>
-    <state x="717" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1030@0.0.1920.1030" timestamp="1656471861421" />
-    <state x="2478" y="95" key="CommitChangelistDialog2" timestamp="1662088274404">
+    <state x="2637" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1663236510962">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2478" y="95" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1080@1920.0.1920.1080" timestamp="1662088274404" />
-    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1660700311450">
-      <screen x="0" y="0" width="1920" height="1030" />
+    <state x="2637" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1080@1920.0.1920.1080" timestamp="1663236510962" />
+    <state x="717" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1030@0.0.1920.1030" timestamp="1656471861421" />
+    <state x="2478" y="95" key="CommitChangelistDialog2" timestamp="1662089678931">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2478" y="95" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1080@1920.0.1920.1080" timestamp="1662089678931" />
+    <state x="2606" y="221" key="FileChooserDialogImpl" timestamp="1663236230592">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2606" y="221" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1080@1920.0.1920.1080" timestamp="1663236230592" />
     <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1030@0.0.1920.1030" timestamp="1660700311450" />
-    <state width="1866" height="266" key="GridCell.Tab.0.bottom" timestamp="1661247334894">
-      <screen x="0" y="0" width="1920" height="1030" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1663236544014">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1080@1920.0.1920.1080" timestamp="1663236544014" />
     <state width="1866" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1030@0.0.1920.1030" timestamp="1661247334894" />
-    <state width="1866" height="266" key="GridCell.Tab.0.center" timestamp="1661247334894">
-      <screen x="0" y="0" width="1920" height="1030" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1663236544014">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1080@1920.0.1920.1080" timestamp="1663236544014" />
     <state width="1866" height="266" key="GridCell.Tab.0.center/0.0.1920.1030@0.0.1920.1030" timestamp="1661247334894" />
-    <state width="1866" height="266" key="GridCell.Tab.0.left" timestamp="1661247334894">
-      <screen x="0" y="0" width="1920" height="1030" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1663236544014">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1080@1920.0.1920.1080" timestamp="1663236544014" />
     <state width="1866" height="266" key="GridCell.Tab.0.left/0.0.1920.1030@0.0.1920.1030" timestamp="1661247334894" />
-    <state width="1866" height="266" key="GridCell.Tab.0.right" timestamp="1661247334894">
-      <screen x="0" y="0" width="1920" height="1030" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1663236544014">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1080@1920.0.1920.1080" timestamp="1663236544014" />
     <state width="1866" height="266" key="GridCell.Tab.0.right/0.0.1920.1030@0.0.1920.1030" timestamp="1661247334894" />
     <state width="1866" height="187" key="GridCell.Tab.1.bottom" timestamp="1657265381646">
       <screen x="0" y="0" width="1920" height="1030" />
@@ -252,14 +264,18 @@
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
     <state width="1866" height="187" key="GridCell.Tab.1.right/0.0.1920.1030@0.0.1920.1030" timestamp="1657265381645" />
-    <state x="339" y="54" key="SettingsEditor" timestamp="1653550740794">
-      <screen x="0" y="0" width="1920" height="1030" />
-    </state>
-    <state x="339" y="54" key="SettingsEditor/0.0.1920.1030@0.0.1920.1030" timestamp="1653550740794" />
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1662088283439">
+    <state x="2410" y="195" key="Maven.ArtifactSearchDialog" timestamp="1663235515280">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1080@1920.0.1920.1080" timestamp="1662088283439" />
+    <state x="2410" y="195" key="Maven.ArtifactSearchDialog/0.0.1280.680/1920.0.1920.1080@1920.0.1920.1080" timestamp="1663235515280" />
+    <state x="2381" y="184" key="SettingsEditor" timestamp="1663236255064">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2381" y="184" key="SettingsEditor/0.0.1280.680/1920.0.1920.1080@1920.0.1920.1080" timestamp="1663236255064" />
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2" timestamp="1662089686831">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2472" y="273" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1080@1920.0.1920.1080" timestamp="1662089686831" />
     <state x="710" y="109" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1654822635209">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
